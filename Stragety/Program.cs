@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Stragety.Implement;
+using System;
 
 namespace Stragety
 {
@@ -6,7 +7,11 @@ namespace Stragety
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            (new Jet()).Go();
+            (new Helicopter()).Go();
+            (new StreatRacer()).Go();
+            (new FormulaOne()).Go();
+            Console.ReadKey();
         }
     }
 }

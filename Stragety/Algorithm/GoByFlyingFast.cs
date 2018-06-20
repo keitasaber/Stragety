@@ -9,7 +9,7 @@ namespace Stragety.Algorithm
     {
         public void Go()
         {
-            Console.WriteLine("Now I'm flying fast")
+            Console.WriteLine("Now I'm flying fast");
         }
     }
 }
